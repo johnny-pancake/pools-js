@@ -68,7 +68,7 @@ export const calcAPY: (apr: BigNumber) => BigNumber = (apr) => {
 /**
  *
  * Calculates the leverage multiplier of the losing pool.
- * This multiplier is used to {@linkcode calcLeverageLossTransfer| calculate the percentage loss transfer} between the pools.
+ * This multiplier is used to {@linkcode calcPercentageLossTransfer| calculate the percentage loss transfer} between the pools.
  * @param newPrice new market price
  * @param oldPrice old market price
  * @param leverage pool leverage
